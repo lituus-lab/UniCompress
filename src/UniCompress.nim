@@ -2,5 +2,5 @@
 # Copyright 2026 lituus-lab
 ## UniCompress public API.
 
-import UniCompress/errors
-export errors
+import UniCompress/[deflate, errors]
+export deflate, errors
