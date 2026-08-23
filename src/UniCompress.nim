@@ -3,4 +3,6 @@
 ## UniCompress public API.
 
 import UniCompress/[deflate, errors]
-export deflate, errors
+import UniCompress/formats/zlib
+export deflate, errors, zlib
+
