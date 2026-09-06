@@ -25,7 +25,7 @@ self-contained wheel: the native library travels inside the package, so
 installing it needs neither Nim nor a compiler.
 
 ```
-pip install unicompress
+pip install lituus-unicompress
 ```
 
 CI executes this notebook against the wheel the release actually publishes, so
