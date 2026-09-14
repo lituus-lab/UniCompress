@@ -116,7 +116,7 @@ const
     else: ""
 
 task clib, "C shared library":
-  exec "nim c --app:lib --noMain --mm:arc -d:release -o:" & sharedLib & macArgs &
+  exec "nim c --app:lib -d:staticNoAutoInit --noMain --mm:arc -d:release -o:" & sharedLib & macArgs &
        " src/UniCompress/c_api.nim"
   done "clib"
 
